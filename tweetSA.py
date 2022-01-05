@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import MyProcessingModule as processing
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 
 st.title('Twitter sentiment analysis')
 st.write("""
