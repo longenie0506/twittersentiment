@@ -27,7 +27,7 @@ model = load_model(model_name)
 # Notify the reader that the data was successfully loaded.
 model_load_state.text("Model already deployed")
 
-tweet_input = st.text_input('Leave tweet content here')
+tweet_input = st.text_area('Leave tweet content here')
 entity_input = st.selectbox("Choose entity to increase prediction accuracy by category", processing.unique_entity(),index=0)
 if st.button('Predict'):
     result = model.predict(processing.preprocessing(tweet_input,entity=entity_input))
