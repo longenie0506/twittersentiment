@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import MyProcessingModule as processing
 import nltk
+import sklearn
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
