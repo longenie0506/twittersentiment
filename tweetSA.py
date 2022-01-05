@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import tensorflow as tf
 import os
-from tensorflow import keras
+from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import MyProcessingModule as processing
-
 
 st.title('Twitter sentiment analysis')
 st.write("""
@@ -15,9 +13,6 @@ This application is to predict sentiment of tweets.
 )
 
 model_name = 'TwitterSentimentModel'
-
-def load_model(model):
-    return keras.models.load_model(model)
 
 # Create a text element and let the reader know the data is loading.
 model_load_state = st.text('Loading Model...')
