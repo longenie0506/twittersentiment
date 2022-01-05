@@ -5,6 +5,8 @@ import os
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import MyProcessingModule as processing
+import nltk
+nltk.download('punkt')
 
 st.title('Twitter sentiment analysis')
 st.write("""
