@@ -9,4 +9,4 @@ https://www.kaggle.com/jp797498e/twitter-entity-sentiment-analysis
 Use this link to see deployed application:
 https://share.streamlit.io/longenie0506/twittersentiment/main/tweetSA.py
 
-Thanks https://streamlit.io/ for provide a simple intuitive UI web application framework to implement our python NLP processing works.
+Thanks https://streamlit.io/ for providing a simple intuitive UI web application framework to implement our python NLP processing works. This sentiment analysis is just unprofessional project for researching, still trying to improve accuracy and use other models.
