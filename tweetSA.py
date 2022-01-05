@@ -13,7 +13,8 @@ nltk.download('wordnet')
 
 st.title('Twitter sentiment analysis')
 st.write("""
-This application is to predict sentiment of tweets.
+This application is to predict sentiment of tweets. Thanks for watching.
+Our repo: https://github.com/longenie0506/twittersentiment/blob/main/tweetSA.py
 """
 )
 
